@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gellery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: cursive;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-size: 32px;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  /* DROPDOWN MENU */
+  .services {
+    position: relative; 
+  }
+  
+  .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown li {
+    padding: 0.5em 1em;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .dropdown li:hover {
+    background-color: #4c9e9e;
+  }
+
+  /* dropdown 2 */
+  .dropdown2 {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown2 li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown2 li {
+    padding: 0.5em 1em;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .dropdown2 li:hover {
+    background-color: #4c9e9e;
+  }
+
+
+  .services:hover .dropdown {
+    display: block;
+  }
+  .contact:hover .dropdown2{
+    display: block;
+    right: 3px;
+    top: 60px;
+  }
+
+  /* RESPONSIVE NAVBAR MENU STARTS */
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    /* float: left; */
+    width: 50%;
+  }
+  .gal{
+    display: inline-flex;
+    padding: 100px;
+    width: 100%;
+    padding-top: 50px;
+    
+  }
+  .headi{
+    padding-top: 50px;
+    display: grid;
+    place-content: center;
+    font-size: 6vh;
+  }
+  .headi h2{
+    color: white;
+    background: #000;
+    padding:30px;
+    border-radius: 30px;
+}
+.sec2{
+    padding: 20px;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: #bbb7b7;
+   }
+   .fa {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  .menu {
+       display:none;
+       position: absolute;
+       background-color:teal;
+       right: 0;
+       left: 0;
+       text-align: center;
+       padding: 16px 0;
+     }
+   
+     .menu li:hover {
+       display: inline-block;
+       background-color:#4c9e9e;
+       transition: 0.3s ease;
+     }
+   
+     .menu li + li {
+       margin-top: 12px;
+     }
+   
+     input[type=checkbox]:checked ~ .menu {
+       display: block;
+     }
+   
+     .hamburger {
+       display: block;
+     }
+   
+     .dropdown {
+       left: 50%;
+       top: 30px;
+       transform: translateX(5%);
+       /* transform: translateY(10%); */
+     }
+     .dropdown2{
+         left: 50%;
+         top: 30px;
+         transform: translateX(5%);
+         transform: translateY(10%);
+     }
+   
+     .dropdown li:hover {
+       background-color: #4c9e9e;
+     }
+     .gal{
+        display: inline;
+        padding: 50px;
+     }
+     .responsive{
+        width: 100%;
+        
+     }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">Welcome</div>
+        
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+        
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+        
+                <li><a href="https://codewithrajput.000webhostapp.com/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+        
+                <li class="services">
+                  <a href="/services/">Services</a>
+        
+                  <!-- DROPDOWN MENU -->
+                  <ul class="dropdown">
+                    <li><a href="/">web development </a></li>
+                    <li><a href="/">anderoid development</a></li>
+                    <li><a href="/">frontend web developer</a></li>
+                    <li><a href="/">backend developer</a></li>
+                    <li><a href="/">ios applications development</a></li>
+                  </ul>
+        
+                </li>
+        
+                <li><a href="/gallery/">Gallery</a></li>
+                <li class="contact"><a href="/contact/">Contact</a>
+                    <ul class="dropdown2">
+                      <li><a href="tel:9758619556">9758XXXXX6 </a></li>
+                      <li><a href="mailto:uditchauhan621@gmail.com">uditXXXXXXX6XX@gmail.com</a></li>
+                      </ul>
+                </li>
+              </div>
+            </ul>
+          </nav>
+      </header>
+
+
+      <div class="headi">
+        <h2>Image Gallery</h2>
+      </div>
+      <div class="gal">
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="1.jpg">
+                <img src="1.jpg" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+          
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="4.jpg">
+                <img src="4.jpg" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+          
+          
+      </div>
+      <br><br>
+      <div class="gal">
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="3.gpg.jpeg">
+                <img src="3.gpg.jpeg" alt="Northern Lights" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="4.jpg">
+                <img src="4.jpg" alt="Mountains" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+      </div>
+      <footer>
+        <section class="sec2">
+            <div class="sec2-div1">
+              webpage design by code with raput (Udit Rajput)
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="" class="fa fa-instagram"></a>
+            </div>
+          </section>
+    </footer>
+</body>
+</html>
+
+

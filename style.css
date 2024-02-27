@@ -1,0 +1,327 @@
+.bt1{
+  transition: 1s;
+  color: rgb(30, 30, 209);
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid rgb(30, 30, 209);
+  
+}
+
+button{
+  padding: 15px;
+  border-radius: 9px;
+  border: none;
+  background: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.bt1:hover{
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid rgb(30, 30, 209);
+  background-color: rgb(30, 30, 209) ;
+  
+}
+
+.modal-wrapper {
+  background: rgba(0, 0, 0, 0.508);
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.modal {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  top: 100px;
+  left: 25%;
+  background: wheat;
+  /* padding: 20px; */
+  border-radius: 5px;
+  position: relative;
+}
+.modal a {
+  text-decoration: none;
+  background: crimson;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.modal-close {
+  color: red;
+  border: 1px solid black;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  width: 20px;
+  border-radius: 5px;
+}
+
+
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: cursive;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-size: 32px;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  /* DROPDOWN MENU */
+  .services {
+    position: relative; 
+  }
+  
+  .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown li {
+    padding: 0.5em 1em;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .dropdown li:hover {
+    background-color: #4c9e9e;
+  }
+
+  /* dropdown 2 */
+  .dropdown2 {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown2 li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown2 li {
+    padding: 0.5em 1em;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .dropdown2 li:hover {
+    background-color: #4c9e9e;
+  }
+
+
+  .services:hover .dropdown {
+    display: block;
+  }
+  .contact:hover .dropdown2{
+    display: block;
+    right: 3px;
+    top: 60px;
+  }
+
+  /* RESPONSIVE NAVBAR MENU STARTS */
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+
+  .sec1-div1{
+    padding: 50px;
+  }
+  .sec1-div1-sp1{
+    font-size: 40px;
+    /* padding: 10px; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+    font-family: algerian;
+  }
+
+   .sec1-div1-sp2{
+    font-size: 25px;
+    /* padding: 25px; */
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: rgb(233, 212, 212);
+   }
+
+   .sec1-div1-img1{
+    display: none;
+   }
+
+   .sec1-div1-img2{
+    float: right;
+   }
+   .sec1{
+    background: #524a4a;
+    height: 470px;
+   }
+   .sec2{
+    padding: 20px;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: #bbb7b7;
+   }
+   .frame1{
+    width: fit-content;
+    height: fit-content;
+   }
+  
+  /* APPLYING MEDIA QUERIES */
+  @media (max-width: 768px) {
+   .menu {
+      display:none;
+      position: absolute;
+      background-color:teal;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+  
+    .menu li:hover {
+      display: inline-block;
+      background-color:#4c9e9e;
+      transition: 0.3s ease;
+    }
+  
+    .menu li + li {
+      margin-top: 12px;
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .dropdown {
+      left: 50%;
+      top: 30px;
+      transform: translateX(5%);
+      /* transform: translateY(10%); */
+    }
+    .dropdown2{
+        left: 50%;
+        top: 30px;
+        transform: translateX(5%);
+        transform: translateY(10%);
+    }
+  
+    .dropdown li:hover {
+      background-color: #4c9e9e;
+    }
+    .sec1-div1-img1{
+      display:inline-block;
+    }
+    .sec1-div1-img2{
+      display: none;
+    }
+    .sec1{
+      height: fit-content;
+    }
+  }
+
