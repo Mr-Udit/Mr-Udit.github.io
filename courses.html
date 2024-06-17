@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Courses - Mr Udit</title>
+    <link rel="stylesheet" href="/css/nav.css" id="nav-stylesheet"/>
+    <link rel="stylesheet" href="/css/style.css" id="light" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/responsive.css"/>
+</head>
+<body>
+    <header>
+        <div class="upper-header">
+            <div class="site-logo">
+                <b>&lt;/&gt;</b> Mr Udit
+            </div>
+            <div class="site-nav">
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="./courses.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="./tutorials.html">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="./blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="./notes.html">Notes</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dark-light">
+                    <i class="fa fa-moon-o" style="font-size: 36px;" class="dark show" width="100%" alt="dark mode" onclick="dark()"></i>
+                </div>
+                <div class="login-signup-link">
+                    <a href="" class="login">Log In <i class="fa fa-user" style="font-size:20px; color: white;"></i> </a>
+                    <a href="" class="sign-up"> Sign Up <i class="fa fa-user user" style="font-size:20px; color: white;"></i> </a>
+                </div>
+            </div>
+        </div>
+        <div class="lower-header">
+            <div class="home-icon">
+                <i class="fa fa-home" style="font-size:36px"></i>
+            </div>
+            <div class="menu-btn">
+                <button onclick="showMenu()" id="openMenu">Menu</button>
+                <button onclick="closeMenu()" id="closeMenu">&#10006;</button>
+                <div class="menu" id="menu">
+                    <ul>
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="./courses.html">Course</a>
+                        </li>
+                        <li>
+                            <a href="./tutorials.html">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="./blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="./notes.html">Notes</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-2">
+                <ul>
+                    <li><a href=""> HTML </a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href=""> JS </a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Java</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" class="hide-search" id="search" />
+                <span id="close" onclick="closeSearch()" style="font-size: 30px; cursor: pointer;">&#10006;</span>
+                <i class="fa fa-search" onclick="showSearch()" class="search-icon" id="open" style="font-size:30px; cursor: pointer;"></i>
+            </div>
+        </div>
+    </header>
+    <main style="padding-top: 130px;">
+        <section class="recomended-courses">
+            <div class="main">
+                <h2>
+                    recomended courses
+                </h2>
+                <div class="container">
+                    <div class="card">
+                        <div class="image">
+                            <img src="/images/backend-img.jpg" width="100%" alt="" />
+                        </div>
+                        <div class="description">
+                            <div class="price">
+                                free course
+                            </div>
+                            <div class="heading">
+                                Web Development
+                            </div>
+                            <div class="intro">
+                                In this course you will master web devlopemnt concepts in simple and inovative way.
+                                This is begnerfriendly course.
+                                Any one can enjoy it.
+                            </div>
+                            <div class="button">
+                                <button>Start learning <img src="/images/next.png" alt="" /></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="/images/python-img.webp" width="100%" alt="" />
+                        </div>
+                        <div class="description">
+                            <div class="price">
+                                free course
+                            </div>
+                            <div class="heading">
+                                Web Development
+                            </div>
+                            <div class="intro">
+                                In this course you will master web devlopemnt concepts in simple and inovative way.
+                                This is begnerfriendly course.
+                                Any one can enjoy it.
+                            </div>
+                            <div class="button">
+                                <button>Start learning <img src="/images/next.png" alt="" /></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="/images/java-img.jpg" width="100%" alt="" />
+                        </div>
+                        <div class="description">
+                            <div class="price">
+                                free course
+                            </div>
+                            <div class="heading">
+                                Web Development
+                            </div>
+                            <div class="intro">
+                                In this course you will master web devlopemnt concepts in simple and inovative way.
+                                This is begnerfriendly course.
+                                Any one can enjoy it.
+                            </div>
+                            <div class="button">
+                                <button>Start learning <img src="/images/next.png" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>

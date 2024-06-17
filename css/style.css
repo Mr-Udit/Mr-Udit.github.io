@@ -1,0 +1,373 @@
+.hero{
+    height: 380px;
+    padding: 170px 100px 30px 100px;
+    overflow: hidden;
+    /* background: black; */
+}
+.hero .container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.hero .container .text{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.hero .container .image{
+    position: absolute;
+    width: 40%;
+    /* overflow: hidden; */
+    max-height: 400px;
+    right: -100px;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+.hero .container .image .background{
+    width: 1000px;
+    height: 1000px;
+    background: grey;
+    transform: rotate(15deg);
+    /* z-index: -1; */
+    position: absolute;
+    top: -150px;
+    left: -100px;
+    overflow: hidden;
+}
+.hero .container .image .background img{
+    transform: rotate(-15deg);
+    position: absolute;
+    top: -100px;
+}
+.hero .container .text .content{
+    width: 55%;
+    word-wrap: break-word;
+}
+.hero .container .text h1{
+    font-size: 2.6rem;
+    margin-bottom: 5px;
+    position:relative;
+    animation:animateleft 0.4s
+}
+@keyframes animateleft
+{
+    from{
+        left:-300px;
+        opacity:0
+    }
+    to{
+        left:0;
+        opacity:1
+    }
+}
+.hero .container .text .content .subheading{
+    font-size: 30px;
+}
+.hero .container .text .content .subheading .cursor{
+    font-size: 34px;
+    font-weight: bolder;
+    color: purple;
+    animation:blinkk 0.2s linear infinite;
+}
+@keyframes blinkk {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.typing-animation{
+    color: purple;
+}
+.hero .description{
+    margin-top: 20px;
+    font-size: 18px;
+    color: grey;
+}
+.hero .buttons{
+    margin-top: 20px;
+    /* background: grey; */
+}
+.hero .buttons button{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.btn1{
+    background: white;
+    color: purple;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid purple;
+    position: relative;
+    width: 170px;
+    text-align: left;
+    overflow: hidden;
+}
+.btn1 .upper-icon{
+    font-size: 25px;
+    position: absolute;
+    top: -30px;
+    right: 10px;
+}
+.btn1 .lower-icon{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    /* display: none; */
+}
+.btn1:hover .upper-icon{
+    animation-name: swipe;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    color: white;
+}
+.btn1:hover .lower-icon{
+    display: block;
+    color: white;
+    /* z-index: -1; */
+    animation: fade 0.2s linear ;
+    animation-iteration-count: 1;
+}
+@keyframes fade {
+    from{
+        top: 8px;
+        right: 10px;
+    }
+    to{
+        top: 50px;
+        right: 10px;
+    }
+}
+@keyframes swipe {
+    0%{
+        top: -30px;
+        right: 10px;
+    }
+    100%{
+        top: 8px;
+        right: 10px;
+    }
+}
+.btn2 .upper-icon{
+    font-size: 25px;
+    position: absolute;
+    top: -30px;
+    right: 10px;
+}
+.btn2 .lower-icon{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    color: white;
+    /* display: none; */
+}
+.btn2:hover .upper-icon{
+    animation-name: swipe;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    color: purple;
+}
+.btn2:hover .lower-icon{
+    display: block;
+    color: purple;
+    /* z-index: -1; */
+    animation: fade 0.2s linear ;
+    animation-iteration-count: 1;
+}
+.btn1:hover{
+    background: purple;
+    color: white;
+    border: 1px solid white;
+}
+.btn2{
+    background: purple;
+    color: white;
+    border:1px solid purple;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    width: 170px;
+    text-align: left;
+    overflow: hidden;
+}
+.btn2:hover{
+    background: white;
+    color: purple;
+    border:1px solid purple;
+}
+
+.recomended-courses{
+    padding: 8px 16px 30px 16px;
+    position:relative;
+    animation:animatebottom 0.4s
+}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.recomended-courses .main h2 {
+    text-align: center;
+    margin: 40px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.recomended-courses .main .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.recomended-courses .main .container .card{
+    width: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.466);
+}
+.recomended-courses .main .container .card .image{
+    overflow: hidden;
+    width: 100%;
+}
+.recomended-courses .main .container .card .image img{
+    transition: 0.3s;
+}
+.recomended-courses .main .container .card:hover .image img{
+    transform: scale(1.1);
+}
+.recomended-courses .main .container .card .description{
+    padding: 10px 20px 10px 20px ;
+    text-transform: capitalize;
+}
+.recomended-courses .main .container .card .description .price{
+    color: grey;
+    text-decoration: underline;
+}
+.recomended-courses .main .container .card .description .heading{
+    font-size: 30px;
+    margin: 20px 0px 20px 0px ;
+}
+.recomended-courses .main .container .card .description .intro{
+    padding: 0px 20px 0px 10px ;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.recomended-courses .main .container .card .description .button button{
+    font-size: 20px;
+    background: grey;
+    color: wheat;
+    border:1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.testemonials {
+    padding: 8px 16px 30px 16px;
+}
+.testemonials .main h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.testemonials .main .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.testemonials .main .container .testimonial{
+    width: 40%;
+    height: fit-content;
+    /* box-sizing: content-box; */
+    background: rgba(128, 128, 128, 0.466);
+    border-radius: 10px;
+    position: relative;
+}
+.testemonials .main .container .testimonial .top-left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.testemonials .main .container .testimonial .review{
+    width: 80%;
+    height: 100%;
+}
+.testemonials .main .container .testimonial .about-client{
+    margin-top: 30px;
+}
+.testemonials .main .container .testimonial .about-client .heading{
+    font-weight: 600;
+}
+
+footer .main{
+    padding: 0px 40px 0px 40px ;
+    display: flex;
+    height: 90px;
+    flex-wrap: wrap;
+    /* background: rgba(95, 91, 91, 0.568); */
+    justify-content: space-around;
+}
+footer .site-logo{
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid; */
+    font-size: 30px;
+    display: flex;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .site-logo div{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+footer .site-logo img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+footer .branding{
+    display: flex;
+    padding-top: 20px;
+}
+.site-copyright{
+    display: grid;
+    place-content: center;
+    /* border: 1px solid; */
+    height: 60px;
+    color: grey;
+    text-transform: capitalize;
+}
+footer .social-icons{
+    padding: 0px;
+    height: 60px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    height: fit-content;
+    /* border: 1px solid; */
+}
+footer ul li{
+    padding: 20px;
+}
+
+footer .main{
+    padding-top: 15px;
+    background-color: rgba(128, 128, 128, 0.596);
+    height: 60px;
+}
+footer .main .container {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+footer .left .site-logo{
+    font-size: 25px;
+    height: 50px;
+}
+footer .right{
+    padding: 10px;
+}

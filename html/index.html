@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML tutorials - Mr Udit | Coding for all</title>
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/nav.css" id="nav-stylesheet" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description"
+        content="Mr Udit is person who is trying to educate india in new form. He is trying to teach programming in new and inovative way. It is humble request to all of you to support us." />
+    <meta name="keywords"
+        content="Mr udit , coding for all, programming for all, udit chauhan , coder udit, codder udit coding for all" />
+    <meta name="rating" content="general" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+    <header>
+        <div class="upper-header">
+            <div class="site-logo">
+                <b>&lt;/&gt;</b> Mr Udit
+            </div>
+            <div class="site-nav">
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="http://127.0.0.1:5502/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./courses.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="./tutorials.html">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="./blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="./notes.html">Notes</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dark-light">
+                    <i class="fa fa-moon-o" style="font-size: 36px;" class="dark show" width="100%" alt="dark mode"
+                        onclick="dark()"></i>
+                </div>
+                <div class="login-signup-link">
+                    <a href="" class="login">Log In <i class="fa fa-user" style="font-size:20px; color: white;"></i>
+                    </a>
+                    <a href="" class="sign-up"> Sign Up <i class="fa fa-user user"
+                            style="font-size:20px; color: white;"></i> </a>
+                </div>
+            </div>
+        </div>
+        <div class="lower-header">
+            <div class="home-icon">
+                <i class="fa fa-home" style="font-size:36px"></i>
+            </div>
+            <div class="menu-btn">
+                <button onclick="showMenu()" id="openMenu">Menu</button>
+                <button onclick="closeMenu()" id="closeMenu">&#10006;</button>
+                <div class="menu" id="menu">
+                    <ul>
+                        <li>
+                            <a href="http://127.0.0.1:5502/">Home</a>
+                        </li>
+                        <li>
+                            <a href="./courses.html">Course</a>
+                        </li>
+                        <li>
+                            <a href="./tutorials.html">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="./blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="./notes.html">Notes</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-2">
+                <ul>
+                    <li><a href="/html/index.html"> HTML </a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href=""> JS </a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Java</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" class="hide-search" id="search" />
+                <span id="close" onclick="closeSearch()" style="font-size: 30px; cursor: pointer;">&#10006;</span>
+                <i class="fa fa-search" onclick="showSearch()" class="search-icon" id="open"
+                    style="font-size:30px; cursor: pointer;"></i>
+            </div>
+        </div>
+    </header>
+    <main style="padding-top: 130px;">
+        <aside class="table-of-content">
+            <ul style="padding: 0;">
+                <div class="item">
+                    <li class="heading">
+                        Introduction
+                    </li>
+                    <div class="content">
+                        <li>HTML Introduction</li>
+                        <li>HTML Working</li>
+                        <li>HTML Installation</li>
+                        <li>HTML Execution</li>
+                        <li>HTML Page Structure</li>
+                        <li>HTML Tags</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Comments</li>
+                        <li>HTML Id & Classes</li>
+                    </div>
+                </div>
+                <div class="item">
+                    <li class="heading">
+                        HTML BASIC TAGS
+                    </li>
+                    <div class="content">
+                        <li>HTML Introduction</li>
+                        <li>HTML Working</li>
+                        <li>HTML Installation</li>
+                        <li>HTML Execution</li>
+                        <li>HTML Page Structure</li>
+                        <li>HTML Tags</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Comments</li>
+                        <li>HTML Id & Classes</li>
+                    </div>
+                </div>
+                <div class="item">
+                    <li class="heading">
+                        INLINE & BLOCK ELEMENTS
+                    </li>
+                    <div class="content">
+                        <li>HTML Introduction</li>
+                        <li>HTML Working</li>
+                        <li>HTML Installation</li>
+                        <li>HTML Execution</li>
+                        <li>HTML Page Structure</li>
+                        <li>HTML Tags</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Comments</li>
+                        <li>HTML Id & Classes</li>
+                    </div>
+                </div>
+                <div class="item">
+                    <li class="heading">
+                        HTML LISTS
+                    </li>
+                    <div class="content">
+                        <li>HTML Introduction</li>
+                        <li>HTML Working</li>
+                        <li>HTML Installation</li>
+                        <li>HTML Execution</li>
+                        <li>HTML Page Structure</li>
+                        <li>HTML Tags</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Comments</li>
+                        <li>HTML Id & Classes</li>
+                    </div>
+                </div>
+                <div class="item">
+                    <li class="heading">
+                        HTML TABLES
+                    </li>
+                    <div class="content">
+                        <li>HTML Introduction</li>
+                        <li>HTML Working</li>
+                        <li>HTML Installation</li>
+                        <li>HTML Execution</li>
+                        <li>HTML Page Structure</li>
+                        <li>HTML Tags</li>
+                        <li>HTML Elements</li>
+                        <li>HTML Attributes</li>
+                        <li>HTML Comments</li>
+                        <li>HTML Id & Classes</li>
+                    </div>
+                </div>
+            </ul>
+        </aside>
+        <section class="main-content">
+            <div class="buttons">
+                <button onclick="previous()">
+                    previous
+                </button>
+                <button onclick="next()">
+                    next
+                </button>
+            </div>
+            <div class="content-2">
+                <div id="html-introduction">
+                    <h2>HTML Introduction</h2>
+                    <p>
+                        <!-- HTML, which stands for HyperText Markup Language, is the standard language used to create and
+                        design web pages.
+                        It provides the basic structure and content of a web page by using a system of tags and
+                        attributes.
+                        These tags define the elements within the page, such as headings, paragraphs, images, links, and
+                        more.
+                        <br />
+                        <br />
+                        HTML documents consist of a series of elements enclosed in angle brackets &lt;&gt;, commonly known as
+                        tags. Each tag serves a specific purpose and can contain attributes that provide additional
+                        information about the element. For example, the &lt;img&gt; tag is used to insert images into a
+                        web page, while the >&lt;/&gt; tag creates hyperlinks to other pages or resources.
+                        <br />
+                        <br />
+                        Web browsers interpret HTML code to render web pages visually for users. Alongside CSS
+                        (Cascading Style Sheets) and JavaScript, HTML forms the core technologies used for
+                        building websites and web applications on the internet.
+                        <br />
+                        <br />
+                        Learning HTML is foundational for anyone interested in web development, as it provides
+                        the essential skills needed to create and structure content on the web -->
+                        Today, I'm writing this tutorial to create a resource that will help you learn HTML in less than 30 days. Here's a
+                        recommended timeline for learning HTML, based on your educational background:
+                        <ul>
+                            <li>
+                                High School students and younger: Around 25 days
+                            </li>
+                            <li>
+                               Those beyond High School: Around 20 days 
+                            </li>
+                            <li>
+                                College students and above: Around 10-20 days
+                            </li>
+                        </ul>
+                        You may be wondering why I'm discussing these timelines. It's important for me to set expectations before you start your journey of learning html with me.
+                        <br />
+                        My name is Harry (the same CodeWithHarry guy from YouTube), and today I'm writing this comprehensive HTML tutorial for all of you. Let's jump right into HTML!
+                    </p>
+                    <h2>
+                        What is HTML?
+                    </h2>
+                    <p>
+                        HTML (HyperText Markup Language) was created by Tim Berners-Lee in 1991 as a standard for creating web pages. It's a markup language used to structure content on the web, defining elements like headings, paragraphs, links, and images. HTML forms the backbone of web content. In layman's terms, HTML is like the skeleton of a website. It's a set of instructions that tells a web browser how to display text, images, videos, and other elements on a webpage. Think of it as the building blocks that create the structure and look of a website, similar to how bricks and mortar are used to build a house.
+                        <br />
+                        In a nutshell:
+                        <ul>
+                            <li>
+                                HTML is the language of the web, used to create websites.
+                            </li>
+                            <li>
+                                HTML defines the barebone structure or layout of web pages that we see on the Internet.
+                            </li>
+                            <li>
+                                HTML consists of a set of tags contained within an HTML document, and the associated files typically have either a ".html" or ".htm" extension.
+                            </li>
+                            <li>
+                                There are several versions of HTML, with HTML5 being the most recent version.
+                            </li>
+                        </ul>
+                    </p>
+                    <h2>
+                        Features of HTML
+                    </h2>
+                    <p>
+                        <ul>
+                            <li>
+                                It is platform-independent. For example, Chrome displays the same pages identically across different operating systems such as Mac, Linux, and Windows.
+                            </li>
+                            <li>
+                                Images, videos, and audio can be added to a web page (For example - YouTube shows videos on their website)
+                            </li>
+                            <li>
+                                HTML is a markup language and not a programming language.
+                            </li>
+                            <li>
+                                It can be integrated with other languages like CSS, JavaScript, etc. to show interactive (or dynamic) web pages
+                            </li>
+                        </ul>
+                    </p>
+                    <h2>
+                        Why the Term HyperText & Markup Language?
+                    </h2>
+                    <p>
+                        The term 'Hypertext Markup Language' is composed of two main words: 'hypertext' and 'markup language.' 'Hypertext' refers to the linking of text with other documents, while 'markup language' denotes a language that utilizes a specific set of tags.
+
+                        Thus, HTML is the practice of displaying text, graphics, audio, video etc. in a certain way using special tags.
+
+                        <b>Note:</b> Tags are meaningful texts enclosed in angle braces, like '<...>'. For example, the '<head>' tag. Each tag has a unique meaning and significance in building an HTML page, and it can influence the web page in various ways.
+                    </p>
+                    <h2>
+                        Quick Exercise:
+                    </h2>
+                    <p>
+                        Open a webpage of your choice, right-click on the browser, and select 'View Page Source,' and then you will see the HTML code for that page.
+                        <br/>
+                        <br/>
+                        <video src="/videos/view-page-source.mp4" controls width="80%" autoplay loop></video>
+                        <br/>
+                        <br/>
+                        This is the code that the server sent to display the page you're currently viewing. In this tutorial, we'll learn how to write this type of code using HTML.
+                    </p>
+                    <h2>
+                        A beautiful analogy to understand HTML, CSS, and JavaScript:
+                    </h2>
+                    <p>
+                        <img src="/images/html-car-example.png" width="80%" alt="">
+                        <br/>
+                        In building a webpage, think of HTML, CSS, and JavaScript as different parts of a car. HTML is like the car's skeleton, forming the basic structure and frame. CSS adds the paint and finishing touches, making the car look appealing with color, style, and design. JavaScript is similar to the engine and mechanical parts, infusing the car with functionality, movement, and interactive features. Similarly, when developing a website, HTML lays out the structure, CSS enhances its visual appeal, and JavaScript provides interactivity and dynamic content
+                    </p>
+                    <h2>
+                        History of HTML:
+                    </h2>
+                    <p>
+                        <ul>
+                            <li>
+                                1989: Tim Berners-Lee invented HTML while working at CERN.
+                            </li>
+                            <li>
+                                1991: The first publicly available description of HTML was released.
+                            </li>
+                            <li>
+                                1993: The first graphical web browser, Mosaic, was released, which supported HTML
+                            </li>
+                            <li>
+                                1995: HTML 2.0 was published, which added new features like forms and
+                            </li>
+                            <li>
+                                1997: HTML 3.2 was published, which added features like tables and
+                            </li>
+                            <li>
+                                1999: HTML 4.01 was published, which added features like stylesheets and
+                            </li>
+                            <li>
+                                2014: HTML5 was published, which added features like video, audio, and canvas
+                            </li>
+                            <li>
+                                Present day: HTML5 is the current standard, and it continues to evolve with new features and
+                            </li>
+                        </ul>
+                        Feel free to read more history of HTML here on the <a href="https://en.wikipedia.org/wiki/HTML#:~:text=HTML%20version%20timeline">HTML Wikipedia page</a> but I will move ahead and cover important aspects of HTML.
+
+In the next tutorial, we'll continue our journey and understand how websites work
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="/js/script.js"></script>
+<script>
+    // alert(
+    // )
+    // var height = screen.availHeight;
+    // document.getElementsByTagName('aside')[0].style.height = height - 250 + "px"
+
+</script>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes - Mr Udit | coding for all</title>
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/nav.css" id="nav-stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/tutorial.css" id="light"/>
+    <link rel="stylesheet" href="./css/responsive.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="upper-header">
+            <div class="site-logo">
+                <b>&lt;/&gt;</b> Mr Udit
+            </div>
+            <div class="site-nav">
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="./courses.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="./tutorials.html">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="./blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="./notes.html">Notes</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dark-light">
+                    <i class="fa fa-moon-o" style="font-size: 36px;" class="dark show" width="100%" alt="dark mode" onclick="dark()"></i>
+                </div>
+                <div class="login-signup-link">
+                    <a href="" class="login">Log In <i class="fa fa-user" style="font-size:20px; color: white;"></i> </a>
+                    <a href="" class="sign-up"> Sign Up <i class="fa fa-user user" style="font-size:20px; color: white;"></i> </a>
+                </div>
+            </div>
+        </div>
+        <div class="lower-header">
+            <div class="home-icon">
+                <i class="fa fa-home" style="font-size:36px"></i>
+            </div>
+            <div class="menu-btn">
+                <button onclick="showMenu()" id="openMenu">Menu</button>
+                <button onclick="closeMenu()" id="closeMenu">&#10006;</button>
+                <div class="menu" id="menu">
+                    <ul>
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="./courses.html">Course</a>
+                        </li>
+                        <li>
+                            <a href="./tutorials.html">Tutorials</a>
+                        </li>
+                        <li>
+                            <a href="./blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="./notes.html">Notes</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-2">
+                <ul>
+                    <li><a href=""> HTML </a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href=""> JS </a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Java</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" class="hide-search" id="search" />
+                <span id="close" onclick="closeSearch()" style="font-size: 30px; cursor: pointer;">&#10006;</span>
+                <i class="fa fa-search" onclick="showSearch()" class="search-icon" id="open" style="font-size:30px; cursor: pointer;"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="tutorials">
+            <h2 class="anim-item">
+                Notes
+            </h2>
+            <div class="container">
+                <div class="item">
+                    <img src="/images/python.webp" alt="Python">
+                    <h4>
+                        Python Tutorial
+                    </h4>
+                    <button>Download !</button>
+                </div>
+                <div class="item">
+                    <img src="/images/java.webp" alt="java">
+                    <h4>
+                        Java Tutorial
+                    </h4>
+                    <button>Download !</button>
+                </div>
+                <div class="item">
+                    <img src="/images/html.webp" alt="html">
+                    <h4>
+                        HTML Tutorial
+                    </h4>
+                    <button>Download !</button>
+                </div>
+                <div class="item">
+                    <img src="/images/css.webp" alt="css">
+                    <h4>
+                        CSS Tutorial
+                    </h4>
+                    <button>Download !</button>
+                </div>
+                <div class="item">
+                    <img src="/images/js.webp" alt="java script">
+                    <h4>
+                        JavaScript Tutorial
+                    </h4>
+                    <button>Download !</button>
+                </div>
+                <div class="item">
+                    <img src="/images/WordPress_blue_logo.svg.png" alt="wordpress">
+                    <h4>
+                        WordPress Tutorial
+                    </h4>
+                    <button>Download !</button>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+@media screen and (max-width: 1024px) {
+    .hero{
+        height: auto;
+    }
+    .hero .container .image{
+        display: none;
+    }
+    .hero .container .text{
+        width: 100%;
+    }
+    .hero .container .text .content{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top:20px ;
+    }
+    header .site-nav{
+        display: flex;
+    }
+    header .site-nav .nav{
+        display: none;
+    }
+    header .site-logo{
+        text-align: center;
+        width: 40%;
+    }
+    .lower-header{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px){
+    .hero{
+        height: auto;
+        padding: 100px 30px;
+    }
+    .hero .text .content{
+        width: 90%;
+    }
+    header .nav{
+        display: none;
+    }
+    .recomended-courses .main .container{
+        display: block;
+        width: 100%;
+    }
+    .recomended-courses .main .container .card{
+        width: 80%;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.466);
+        margin: 40px auto;
+    }
+    .testemonials .main .container{
+        display: block;
+    }
+    .testemonials .main .container .testimonial{
+        width: 80%;
+        height: fit-content;
+        border-radius: 10px;
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width: 650px){
+    header .upper-header .site-nav .login-signup-link .sign-up{
+        display: none;
+    }
+    header .site-logo{
+        width: auto;
+    }
+    header .menu-2{
+        display: none;
+    }
+    header .menu-btn{
+        display: block;
+        padding-top: 3px;
+    }
+    header .menu-btn #closeMenu{
+        display: none;
+    }
+    .hero{
+        width: 90%;
+        margin: auto;
+    }
+    .recomended-courses .main .container{
+        display: block;
+        width: 100%;
+    }
+    .recomended-courses .main .container .card{
+        width: 80%;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.466);
+        margin: 40px auto;
+    }
+    .testemonials .main .container{
+        display: block;
+    }
+    .testemonials .main .container .testimonial{
+        width: 80%;
+        height: fit-content;
+        border-radius: 10px;
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width: 440px){
+    header .upper-header .site-logo{
+        font-size: 20px;
+    }
+    .hero .container .text .content .description{
+        text-align: justify;
+    }
+    .btn1{
+        margin-bottom: 15px;
+    }
+}
