@@ -19,9 +19,13 @@ function dark() {
     var status = nav.getAttribute('href');
     if (status == '/css/nav.css') {
         nav.setAttribute('href', '/css/nav-dark.css');
+        document.getElementsByTagName('body')[0].style.background = "black";
+        document.getElementsByTagName('body')[0].style.color = "white";
     }
     else{
         nav.setAttribute('href', '/css/nav.css');
+        document.getElementsByTagName('body')[0].style.background = "white";
+        document.getElementsByTagName('body')[0].style.color = "black";
     }
 }
 function showMenu() {
