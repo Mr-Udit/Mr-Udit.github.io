@@ -49,11 +49,11 @@ header .upper-header{
 .site-nav{
     width: fit-content;
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
 }
 header .upper-header .site-logo{
     padding: 20px 20px 10px 20px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: purple;
     font-weight: 700;
@@ -72,7 +72,7 @@ header .upper-header .nav ul li{
     overflow: hidden;
     display: grid;
     place-content: center;
-    height: 60px;
+    height: 50px;
     padding: 10px;
     cursor: pointer;
 }
@@ -80,7 +80,7 @@ header .upper-header .nav ul li{
     display: none;
 }
 .login-signup-link{
-    padding: 30px 20px 20px 20px ;
+    padding: 22px 20px 20px 20px ;
 }
 .login-signup-link a{
     padding: 10px;
@@ -117,6 +117,7 @@ header .lower-header .menu-2 ul{
     flex-wrap: wrap;
     list-style: none;
     padding: 0px;
+    padding-top: 18px;
 }
 header .lower-header .menu-2 ul li{
     padding: 0px 20px 0px 20px;
