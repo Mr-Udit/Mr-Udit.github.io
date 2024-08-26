@@ -103,6 +103,12 @@
     margin-right: 20px;
     border-radius: 5px;
 }
+.hero .buttons button a{
+    text-decoration: none;color:purple;
+}
+.hero .buttons button:hover a{
+    color: white;
+}
 .btn1{
     background: white;
     color: purple;
@@ -160,6 +166,12 @@
         top: 8px;
         right: 10px;
     }
+}
+.hero .buttons .btn2 a{
+    text-decoration: none;color:rgb(255, 255, 255);
+}
+.hero .buttons .btn2:hover a{
+    color: purple;
 }
 .btn2 .upper-icon{
     font-size: 25px;
@@ -238,6 +250,10 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 300px;
+    font-size: 20px;
+    filter: drop-shadow(0px 0px 3px red);
+    text-shadow: 0px 0px 3px rgb(163, 161, 161);
+    font-weight: 500;
 }
 
 .recomended-courses{
