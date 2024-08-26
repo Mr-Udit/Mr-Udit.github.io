@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Code with harry</title>
+    <link rel="stylesheet" href="/css/nav-dark.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="upper-header flex">
+                <div class="left">
+                    <h2 class="logo">
+                        <a href="#" class="logo">Code with Harry</a>
+                    </h2>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../courses.html">Courses</a></li>
+                        <li><a href="../tutorials.html">Tutorial</a></li>
+                        <li class="resp-hide"><a href="../blog.html">Blog</a></li>
+                        <li><a href="../notes.html">Notes</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li class="resp-hide"><a href="" class="btn btn-success" style="margin-top: -5px;">Login</a>
+                        </li>
+                        <li class="resp-hide"><a href="" class="btn btn-success" style="margin-top: -5px;">sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-content-around lower-header">
+                <div>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                        class="f-16 pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    <ul class="">
+                        <li class=""><a href="./html/index.html">HTML</a></li>
+                        <li class=""><a href="">CSS</a></li>
+                        <li class=""><a href="">JS</a></li>
+                        <li class=""><a href="">JAVA</a></li>
+                        <li class=""><a href="">PYHON</a></li>
+                        <li><a href="">WordPress</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex ">
+                    <div id="search">
+                        <input type="search" placeholder="Search here..." class="hide">
+                        <button type="submit" class="bg-transparent text-light border-0" style="outline: none;">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                class="f-16 pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                                </path>
+                            </svg></button>
+                    </div>
+                    <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        onclick="document.getElementById('search').style.display = 'block';" viewBox="0 0 1024 1024"
+                        class="f-16 pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                        </path>
+                    </svg> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-4">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item one">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Java Overview
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-black text-light">
+                            <div class="md:px-8 w-[100%] px-2 md:w-[85%] mx-auto">
+                                <div class="flex mt-5 justify-between">
+                                    <h1
+                                        class="flex text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-white mb-1">
+                                        Java Overview</h1>
+                                </div>
+                                <div>
+                                    <p>Java is an open-source, class-based, high-level, object-oriented programming
+                                        language. Java is platform independent as the java programs are compiled into
+                                        byte code that are platform independent.</p>
+                                    <p>&nbsp;</p>
+                                    <h3>History:</h3>
+                                    <p>Java programming language was created by James Gosling in 1995. The original idea
+                                        was to design a language for the television industry. Gosling worked along with
+                                        his team also called the Green Team and the project they worked on was
+                                        called&nbsp;Greentalk. This project was later named as OAK. The name OAK has its
+                                        roots to the oak tree that stood outside Gosling’s office. This name had to be
+                                        dropped later as it was already a trademark by Oak Technologies.</p>
+                                    <p><strong>So how was the name Java suggested?</strong></p>
+                                    <p>Since the language could no longer be named OAK, Gosling and his team had to come
+                                        up with new name. The team considered various names like DNA, RUBY, JAVA, jolt,
+                                        dynamic, revolutionary, SILK.</p>
+                                    <p>But the name had to unique and quite easy to say. The name JAVA occurred in
+                                        gosling’s mind while having a cup of coffee at his office.</p>
+                                    <p>&nbsp;</p>
+                                    <h3>Types of Java applications:</h3>
+                                    <h4>A. &nbsp; &nbsp;Web Application:</h4>
+                                    <p>Web applications are the applications that run on web browser using servlet, JSP,
+                                        struts technologies. These technologies create java web applications and deploy
+                                        them on server.</p>
+                                    <h4>B. &nbsp; &nbsp;Mobile Application:</h4>
+                                    <p>These are mobile applications created using java.</p>
+                                    <h4>C. &nbsp; &nbsp;Standalone Application:</h4>
+                                    <p>Standalone applications are executed by themselves without the need of other
+                                        programs and files. Example of such an application is antivirus.</p>
+                                    <h4>D. &nbsp; &nbsp;Enterprise Application:</h4>
+                                    <p>Some applications are designed for corporate organizations with the intent to
+                                        control major process in real time. Such applications are called enterprise
+                                        applications.</p>
+                                    <p>&nbsp;</p>
+                                    <h3>Features</h3>
+                                    <p><img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/java/features-of-java.png"
+                                            width="759" height="648"></p>
+                                    <p>&nbsp;</p>
+                                    <ul>
+                                        <li>Object Oriented: In object oriented programming everything is an object
+                                            rather that function and logic.</li>
+                                        <li>Simple: Java is simple to understand, easy to learn and implement.</li>
+                                        <li>Secured: It is possible to design secured software systems using Java.</li>
+                                        <li>Platform Independent: Java is write once and run anywhere language, meaning
+                                            once the code is written, it can be executed on any software and hardware
+                                            systems.</li>
+                                        <li>Portable: Java is not necessarily fixated to a single hardware machine. Once
+                                            created, java code can be used on any platform.</li>
+                                        <li>Architecture Neutral: Java is architecture neutral meaning the size of
+                                            primitive type is fixed and does not vary depending upon the type of
+                                            architecture.</li>
+                                        <li>Robust: Java emphasizes a lot on error handling, type checking, memory
+                                            management, etc. This makes it a robust language.</li>
+                                        <li>Interpreted: Java converts high-level program statement into Assembly Level
+                                            Language, thus making it interpreted.</li>
+                                        <li>Distributed: Java lets us create distributed applications that can run on
+                                            multiple computers simultaneously.</li>
+                                        <li>Dynamic: Java is designed to adapt to ever evolving systems thus making it
+                                            dynamic.</li>
+                                        <li>Multi-thread: multi-threading is an important feature provided by java for
+                                            creating web applications.</li>
+                                        <li>High-performance: Java uses Just-In-Time compiler thus giving us a high
+                                            performance.</li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item two">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Installation and SetUp
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-black text-light">
+                            <div class="md:px-8 w-[100%] px-2 md:w-[85%] mx-auto">
+                                <div class="flex mt-5 justify-between">
+                                    <h1
+                                        class="flex text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-white mb-1">
+                                        Installation &amp; Setup</h1>
+                                </div>
+                                <div>
+                                    <h3>Step 1:</h3>
+                                    <p>Before starting the installation processes, it is advisable to check if your PC
+                                        already has Java installed. To do this, open the command prompt and type the
+                                        following:</p>
+                                    <div class="code-toolbar">
+                                        <pre class="language-markup" tabindex="0"><code class="language-markup">C:\Users\yourName&gt;java -version</code>
+                                        </pre>
+
+                                    </div>
+                                    <p><strong>Output:</strong></p>
+                                    <div class="code-toolbar">
+                                        <div class="language-markup">
+                                            <code class="language-markup">
+                                                java version "1.8.0_281" <br>
+                                                Java(TM) SE Runtime Environment (build 1.8.0_281-b09) <br>
+                                                Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode) <br>
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>&nbsp;</p>
+                                    <h3>Step 2:</h3>
+                                    <p>If your system does not have Java installed, download it from the official
+                                        website: <a
+                                            href="https://www.oracle.com/java/technologies/downloads/">https://www.oracle.com/java/technologies/downloads/</a>
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <h3>Step 3:</h3>
+                                    <p>Run the downloaded file to install Java on your machine.&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <h3>Step 4:</h3>
+                                    <ul>
+                                        <li>Right click on This PC (My Computer).</li>
+                                        <li>Click on properties.</li>
+                                        <li>Go to Advanced System Settings.</li>
+                                        <li>Under this click on Environment Variables.</li>
+                                        <li>Inside System Variables, select Path and click on Edit.</li>
+                                        <li>Give the path of directory where Java is installed followed by a \bin.</li>
+                                        <li>Repeat step 1 to check if Java has been set up and running on your machine.
+                                        </li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p>Java programs can be written in normal text editor like a notepad or more
+                                        complicated editors(IDE’s) like Netbeans, Eclipse or Visual Studio Code.</p>
+                                    <p>For the sake of this tutorial, we will be using Visual Studio Code.</p>
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item three">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            JVM, JRE, JDK
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-black text-light">
+                            <div class="md:px-8 w-[100%] px-2 md:w-[85%] mx-auto">
+                                <div class="flex mt-5 justify-between">
+                                    <h1
+                                        class="flex text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-white mb-1">
+                                        JVM, JRE, JDK</h1>
+                                </div>
+                                <div>
+                                    <p>&nbsp;</p>
+                                    <p><img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/java-jvm-jre-jdk/jvm_jdk.png"
+                                            width="758" height="472"></p>
+                                    <p>&nbsp;</p>
+                                    <h3>A. Java Virtual Machine (JVM):</h3>
+                                    <p>The Java Virtual Machine (JVM) is a virtual machine that provides a runtime
+                                        environment to execute java bytecode.</p>
+                                    <p>The java program is converted into java bytecode which is then translated by the
+                                        JVM into machine code which can be then understood by the CPU to get the output.
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <h3>B. Java Runtime Environment (JRE):</h3>
+                                    <p>The Java Runtime Environment (JRE) provides java libraries, the JVM and other
+                                        files and documents that are needed to run java applications.</p>
+                                    <p>&nbsp;</p>
+                                    <h3>C. Java Development Kit (JDK):</h3>
+                                    <p>The Java Development Kit (JDK) is a superset of JRE and is used to create java
+                                        applications. There are three JDK provided by Oracle; Java Enterprise Edition
+                                        (Java EE), Java Standard Edition (Java SE), and Java Mobile Edition (Java ME).
+                                    </p>
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item four">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            Basic Java Syntax
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-black text-light">
+                            <div class="md:px-8 w-[100%] px-2 md:w-[85%] mx-auto">
+                                <div class="flex mt-5 justify-between">
+                                    <h1>
+                                        Basic Java Syntax
+                                    </h1>
+                                </div>
+                                <div>
+                                    <p>It is particularly important to follow the appropriate syntax while writing java
+                                        code, as we might get errors for the slightest mistake in our code.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>The class name should be the same as that of the name of the java file.
+                                            And each line of code must be written inside a class.&nbsp;</strong></p>
+                                    <p>Example: program where file name and class name is different.</p>
+                                    <div class="code-toolbar">
+                                        <div class="language-markup">
+                                            <code class="language-markup">
+                                                <span class="keyword">package</span> syntax1;<br>
+                                                <span class="keyword">public class</span> Details <span class="curly">{</span> <br>
+                                                &ensp;&ensp;&ensp;<span class="keyword">public static void <span class="funciton">main</span></span> <span class="punctuation">(</span> <span class="keywords">String[]</span> args <span class="punctuation">)</span>  <span class="curly">{</span> <br>
+                                                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span class="funciton">System</span>.out.<span class="funciton">println</span> <span class="punctuation">(</span> "Java program with diff file name and class name" <span class="punctuation">)</span> ; <br>
+                                                &ensp;&ensp;<span class="curly">}</span> <br>
+                                                <span class="curly">}</span> <br>
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>Output:</p>
+                                    <div class="code-toolbar">
+                                        <div class="language-markup" tabindex="0">
+                                            <code class="language-markup">
+                                                The public type Details must be defined in its own file.
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>&nbsp;</p>
+                                    <p>Example: program where file name and class name is same.</p>
+                                    <div class="code-toolbar">
+                                        <div class="language-markup">
+                                            <code class="language-markup">
+                                                <span class="keyword">package</span> syntax1; <br>
+                                                <span class="keyword">public class</span> Details <span class="curly">{</span> <br>
+                                                    &ensp;&ensp;&ensp;<span class="keyword">public static void <span class="function">main</span></span> <span class="punctuation">(</span> <span class="keywords">String[]</span> args <span class="punctuation">)</span>  <span class="curly">{</span> <br>
+                                                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span class="funciton">System</span>.out.<span class="funciton">println</span> <span class="punctuation">(</span> "Java program with same file name and class name" <span class="punctuation">)</span> ; <br>
+                                                      &ensp;&ensp;<span class="curly">}</span> <br>
+                                                <span class="curly">}</span> <br>
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>Output:</p>
+                                    <div class="code-toolbar">
+                                        <div class="language-markup" tabindex="0">
+                                            <code class="language-markup">
+                                                Java program with same file name and class name
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>As we can see from both the examples that even a slightest change in the name
+                                        of
+                                        file and class name still gives us an error.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>Each block of code is indented within the curly
+                                            brackets<span class="curly">{</span><span class="curly">}</span>.&nbsp;</strong></p>
+                                    <p>Example: see how each block is indented inside the parent block</p>
+                                    <div class="code-toolbar">
+                                        <div class="language-markup">
+                                            <code class="language-markup">
+                                                <span class="keyword">package</span> syntax1; <br>
+                                                <span class="keyword">public class</span> Details <span class="curly">{</span> <br>
+                                                    &ensp;&ensp;&ensp;<span class="keyword">public static void <span class="function">main</span></span> <span class="punctuation">(</span> <span class="keywords">String[]</span> args <span class="punctuation">)</span>  <span class="curly">{</span> <br>
+                                                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span class="funciton">System</span>.out.<span class="funciton">println</span> <span class="punctuation">(</span> "Java program with same file name and class name" <span class="punctuation">)</span> ; <br>
+                                                    &ensp;&ensp;<span class="curly">}</span> <br>
+                                                <span class="curly">}</span> <br>
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>&nbsp;</p>
+                                    <p><strong>Each java file must contain a main method that is needed to execute a
+                                            java file.</strong></p>
+                                    <p>Example: java code without a main method gives an error</p>
+                                    <div class="code-toolbar">
+                                        <div class="language-java" tabindex="0">
+                                            <code class="language-java">
+                                                <span class="keyword">package</span> syntax1; <br>
+                                                <span class="keyword">public class</span> Details <span class="curly">{</span> <br>
+                                                    &ensp;&ensp;&ensp;<span class="keyword">public static void <span class="function">main</span></span> <span class="punctuation">(</span> <span class="keywords">String[]</span> args <span class="punctuation">)</span>  <span class="curly">{</span> <br> 
+                                                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span class="funciton">System</span>.out.<span class="funciton">println</span> <span class="punctuation">(</span> "Java program with same file name and class name" <span class="punctuation">)</span> ; <br>
+                                                    &ensp;&ensp;<span class="curly">}</span> <br>
+                                                <span class="curly">}</span> <br>
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>Output:</p>
+                                    <div class="code-toolbar">
+                                        <div class="language-markup" tabindex="0">
+                                            <code class="language-markup">
+                                                Build failed
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
+
+</html>

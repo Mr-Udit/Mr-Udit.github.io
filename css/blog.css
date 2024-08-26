@@ -1,0 +1,61 @@
+.article1{
+    padding: 10px 100px;
+}
+.cont{
+    width: 100%;
+}
+.article{
+    width: 60%;
+    background-color: gray;
+    padding: 50px;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.author{
+    display: flex;
+}
+.name{
+    display: flex;
+    height: 100%;
+    /* padding-bottom: 5px; */
+}
+h3{
+    margin-left: 5px;
+    font-size: 16px;
+    margin-right:5px ;
+}
+.intro{
+    color: wheat;
+}
+.button{
+    margin-top: 30px;
+}
+.button a{
+    width: fit-content;
+    background: green;
+    padding:10px ;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .article1{
+        padding: 150px 50px;
+    }
+    .article{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 440px){
+    .article1{
+        padding: 150px 10px;
+    }
+    .article{
+        width: 70%;
+    }
+}

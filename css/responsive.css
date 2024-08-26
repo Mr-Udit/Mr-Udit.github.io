@@ -1,14 +1,16 @@
+
 @media screen and (max-width: 1024px) {
+    
     .hero{
         height: auto;
     }
-    .hero .container .image{
+    .hero .container1 .image{
         display: none;
     }
-    .hero .container .text{
+    .hero .container1 .text{
         width: 100%;
     }
-    .hero .container .text .content{
+    .hero .container1 .text .content{
         width: 80%;
         margin: auto;
         text-align: center;
@@ -31,6 +33,31 @@
     }
 }
 @media screen and (max-width: 768px){
+    body {
+        margin: 0;
+        padding: 0;
+        background: rgb(0, 0, 0);
+        color: white;
+    }
+    
+    .upper-header {
+        padding-top: 10px;
+        border-bottom: 1px solid rgb(105, 105, 105);
+        margin-bottom: 10px;
+        display: block;
+    }
+    .resp-hide{
+        display: none;
+    }
+    nav a{
+        font-size: 16px;
+    }
+    .lower-header {
+        display: none;
+    }
+    nav ul{
+        margin: 0px 20px;
+    }
     .hero{
         height: auto;
         padding: 100px 30px;
@@ -41,21 +68,21 @@
     header .nav{
         display: none;
     }
-    .recomended-courses .main .container{
+    .recomended-courses .main .container1{
         display: block;
         width: 100%;
     }
-    .recomended-courses .main .container .card{
+    .recomended-courses .main .container1 .card{
         width: 80%;
         overflow: hidden;
         border-radius: 10px;
         box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.466);
         margin: 40px auto;
     }
-    .testemonials .main .container{
+    .testemonials .main .container1{
         display: block;
     }
-    .testemonials .main .container .testimonial{
+    .testemonials .main .container1 .testimonial{
         width: 80%;
         height: fit-content;
         border-radius: 10px;
@@ -83,21 +110,21 @@
         width: 90%;
         margin: auto;
     }
-    .recomended-courses .main .container{
+    .recomended-courses .main .container1{
         display: block;
         width: 100%;
     }
-    .recomended-courses .main .container .card{
+    .recomended-courses .main .container1 .card{
         width: 80%;
         overflow: hidden;
         border-radius: 10px;
         box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.466);
         margin: 40px auto;
     }
-    .testemonials .main .container{
+    .testemonials .main .container1{
         display: block;
     }
-    .testemonials .main .container .testimonial{
+    .testemonials .main .container1 .testimonial{
         width: 80%;
         height: fit-content;
         border-radius: 10px;
@@ -108,10 +135,20 @@
     header .upper-header .site-logo{
         font-size: 20px;
     }
-    .hero .container .text .content .description{
+    .hero{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top:20px ;
+    }
+    .hero .container1 .text .content .description{
         text-align: justify;
     }
     .btn1{
         margin-bottom: 15px;
+    }
+    .java ,.python ,.html ,.css ,.js ,.wordpress{
+        width: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }

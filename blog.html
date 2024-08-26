@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <title>Code with harry</title>
     <link rel="stylesheet" href="/css/nav-dark.css" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/blog.css">
     <link rel="stylesheet" href="/css/responsive.css" />
 </head>
 
@@ -26,7 +26,7 @@
                     <ul>
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./courses.html">Courses</a></li>
-                        <li><a href="./tutorials.html">Tutorial</a></li>
+                        <li class="resp-hide"><a href="./tutorials.html">Tutorial</a></li>
                         <li class="resp-hide"><a href="./blog.html">Blog</a></li>
                         <li><a href="./notes.html">Notes</a></li>
                         <li><a href="./contact.html">Contact</a></li>
@@ -79,79 +79,79 @@
         </nav>
     </header>
     <main>
-        <section class="recomended-courses">
-            <div class="main">
-                <h2>
-                    recomended courses
-                </h2>
-                <div class="container1">
-                    <div class="card">
-                        <div class="image">
-                            <img src="/images/backend-img.jpg" width="100%" alt="" />
+        <div class="article1">
+            <section class="articles">
+                <h1>Courses Articles </h1>
+                <div class="cont">
+                    <div class="article">
+                        <div class="heading">
+                            Hello World
                         </div>
-                        <div class="description">
-                            <div class="price">
-                                free course
+                        <div class="author">
+                            <div class="img">
+                                <img src="/images/favicon.png" width="30px" alt="" />
                             </div>
-                            <div class="heading">
-                                Web Development
-                            </div>
-                            <div class="intro">
-                                In this course you will master web devlopemnt concepts in simple and inovative way.
-                                This is begnerfriendly course.
-                                Any one can enjoy it.
-                            </div>
-                            <div class="button">
-                                <button>Start learning <img src="/images/next.png" alt="" /></button>
+                            <div class="name">
+                                <h3>Mr Udit | march 2024</h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <img src="/images/python-img.webp" width="100%" alt="" />
+                        <div class="intro">
+                            Learn how to deploy a Next.js application in a production
+                            environment on an Ubuntu VPS with this comprehensive guide.
+                            Follow step-by-step instructions to set up NGINX, PM2, and
+                            configure your Next.js app for seamless hosting.
+
                         </div>
-                        <div class="description">
-                            <div class="price">
-                                free course
-                            </div>
-                            <div class="heading">
-                                Web Development
-                            </div>
-                            <div class="intro">
-                                In this course you will master web devlopemnt concepts in simple and inovative way.
-                                This is begnerfriendly course.
-                                Any one can enjoy it.
-                            </div>
-                            <div class="button">
-                                <button>Start learning <img src="/images/next.png" alt="" /></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <img src="/images/java-img.jpg" width="100%" alt="" />
-                        </div>
-                        <div class="description">
-                            <div class="price">
-                                free course
-                            </div>
-                            <div class="heading">
-                                Web Development
-                            </div>
-                            <div class="intro">
-                                In this course you will master web devlopemnt concepts in simple and inovative way.
-                                This is begnerfriendly course.
-                                Any one can enjoy it.
-                            </div>
-                            <div class="button">
-                                <button>Start learning <img src="/images/next.png" alt=""></button>
-                            </div>
+                        <div class="button">
+                            <a href="">Read More</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
+    <footer class="footer" style="background-color: rgb(61, 61, 61); padding: 20px 0px ;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="bi bi-geo-alt"></i> 123 Main St, Anytown, USA</p>
+                    <p><i class="bi bi-envelope"></i> info@example.com</p>
+                    <p><i class="bi bi-phone"></i> +1 (234) 567-8900</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="bi bi-facebook"></a>
+                        <a href="#" class="bi bi-twitter"></a>
+                        <a href="#" class="bi bi-instagram"></a>
+                        <a href="#" class="bi bi-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-4">
+            <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
