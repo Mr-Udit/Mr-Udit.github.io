@@ -351,15 +351,21 @@
     color: black;
     border-radius: 10px;
 }
-.keyword{
-    color: teal;
+.keyword {
+    color: #66d9ef;
 }
-.punctuation{
-    color: yellow;
+.namespace {
+    opacity: .7;
 }
 .curly{
     color: red;
 }
-.funciton{
-    color: rgb(77, 165, 42);
+.class-name, .token.function {
+    color: #e6db74;
+}
+.punctuation {
+    color: #f8f8f2;
+}
+.token.cdata, .token.comment, .token.doctype, .token.prolog {
+    color: #8292a2;
 }
