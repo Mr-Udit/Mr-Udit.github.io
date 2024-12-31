@@ -1,0 +1,138 @@
+* {
+  text-align: center;
+  /* font-size: 50px; */
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  position: relative;
+  background-image: url("https://imageio.forbes.com/blogs-images/startswithabang/files/2016/02/mess-1200x965.jpg?height=571&width=711&fit=bounds");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  height: 1020px;
+  width: 470px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.text1 {
+  top: 350px;
+  left: 0px;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "algerian";
+  animation: slideIn forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+  background-color: #2f8d46;
+  background: linear-gradient(60deg, #ffc0cb, #87ceeb, #00ff7f, #9e3e9e);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.text2 {
+  top: 350px;
+  left: 0px;
+  /* font-size: 70px; */
+  font-weight: bold;
+  font-family: "algerian";
+  animation: slideIn forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+  background-color: #ec09d9;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.text3{
+    color: lightgreen;
+}
+
+img {
+  position: absolute;
+  width: 300px;
+  transform: scale(0);
+}
+
+.star1 {
+  top: 111px;
+  left: 3px;
+  animation: zoom forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+}
+.star2 {
+  left: 80px;
+  top: 209px;
+  animation: zoom forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+.star3 {
+  right: 4px;
+  top: 111px;
+  animation: zoom forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+}
+.star4 {
+  bottom: 74px;
+  left: 3px;
+  animation: zoom forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+}
+.star5 {
+  left: 80px;
+  bottom: 176px;
+  animation: zoom forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+.star6 {
+  bottom: 74px;
+  right: 4px;
+  animation: zoom forwards linear 1s;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(0.25);
+  }
+  50%{
+    transform: scale(0.5);
+  }
+  75%{
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
