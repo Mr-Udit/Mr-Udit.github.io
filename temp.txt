@@ -1,0 +1,284 @@
+<header>
+        <nav>
+            <div class="upper-header flex">
+                <div class="left">
+                    <h2 class="logo">
+                        <a href="#" class="logo">Mr Udit</a>
+                    </h2>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./courses.html">Courses</a></li>
+                        <li><a href="./tutorials.html">Tutorial</a></li>
+                        <li class="resp-hide"><a href="./blog.html">Blog</a></li>
+                        <li><a href="./notes.html">Notes</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li class="resp-hide"><a href="" class="btn btn-success" style="margin-top: -5px;">Login</a>
+                        </li>
+                        <li class="resp-hide"><a href="" class="btn btn-success" style="margin-top: -5px;">sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-content-around lower-header">
+                <div>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                        class="f-16 pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    <ul class="">
+                        <li class=""><a href="./html/index.html">HTML</a></li>
+                        <li class=""><a href="">CSS</a></li>
+                        <li class=""><a href="">JS</a></li>
+                        <li class=""><a href="/java/index.html">JAVA</a></li>
+                        <li class=""><a href="">PYHON</a></li>
+                        <li><a href="">WordPress</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex ">
+                    <div id="search">
+                        <input type="search" placeholder="Search here..." class="hide">
+                        <button type="submit" class="bg-transparent text-light border-0" style="outline: none;">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                class="f-16 pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                                </path>
+                            </svg></button>
+                    </div>
+                    <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        onclick="document.getElementById('search').style.display = 'block';" viewBox="0 0 1024 1024"
+                        class="f-16 pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                        </path>
+                    </svg> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container1">
+                <div class="text">
+                    <div class="content">
+                        <h1>Welcome to
+                            <span
+                                style="color: purple; font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                Mr Udit
+                            </span>
+
+                        </h1>
+                        <div class="subheading">
+                            Learn<span class="text"></span> <span class="typing-animation" id="typing-animation"></span>
+                        </div>
+                        <div class="description">
+                            Confused on which course to take? I have got you
+                            covered. Browse courses and find out the best course
+                            for you. Its free! Mr Udit is my attempt to
+                            teach basics and those coding techniques to people in
+                            short time which took me ages to learn.
+                        </div>
+                        <div class="buttons">
+                            <button class="btn1">
+                                <a href="./courses.html">Free Courses</a>
+                                <i class="fa fa-location-arrow upper-icon"></i>
+                                <i class="fa fa-location-arrow lower-icon"></i>
+                            </button>
+                            <button class="btn2">
+                                <a href="./blog.html">Explore Blogs</a>
+                                <i class="fa fa-location-arrow upper-icon"></i>
+                                <i class="fa fa-location-arrow lower-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="background">
+                        <img src="/images/hero-side-image.webp" alt="side image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="courses my-4">
+            <h1 class="text-center my-4">
+                Most Popular Tutorials
+            </h1>
+            <div class="container my-4">
+                <div class="row d-flex flex-wrap my-4" style="justify-content: space-around;">
+                    <div class="col-md-6 col-lg-4  my-3" style="width: fit-content;">
+                        <div class="card html shadow-light my-2">
+                            <div class="card-body d-flex flex-column" style="height: 18rem; justify-content:center;">
+                                <h2 class="card-title" style="font-weight: 900;">HTML</h2>
+                                <p class="card-text"> Welcome to this course In this Course you will learn HTML in a
+                                    simple and easy language</p>
+                                <a href="/html/index.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  my-3" style="width: fit-content;">
+                        <div class="card css shadow-light my-2">
+                            <div class="card-body d-flex flex-column" style="height: 18rem;justify-content:center;">
+                                <h2 class="card-title" style="font-weight: 900;">CSS</h2>
+                                <p class="card-text">Welcome to this course In this Course you will learn CSS in a
+                                    simple and easy language</p>
+                                <a href="/css-tutorial/index.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  my-3" style="width: fit-content;">
+                        <div class="card js shadow-light my-2">
+                            <div class="card-body d-flex flex-column" style="height: 18rem;justify-content:center;">
+                                <h5 class="card-title">JavaScript</h5>
+                                <p class="card-text">Welcome to this course In this Course you will learn JavaScript in
+                                    a simple and easy language</p>
+                                <a href="./sorry.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  my-3" style="width: fit-content;">
+                        <div class="card java shadow-light my-2">
+                            <div class="card-body d-flex flex-column" style="height: 18rem;justify-content:center;">
+                                <h5 class="card-title">Java</h5>
+                                <p class="card-text">Welcome to this course In this Course you will learn Java in a
+                                    simple and easy language</p>
+                                <a href="./java/index.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  my-3" style="width: fit-content;">
+                        <div class="card python shadow-light my-2">
+                            <div class="card-body d-flex flex-column" style="height: 18rem;justify-content:center;">
+                                <h5 class="card-title">Python</h5>
+                                <p class="card-text">Welcome to this course In this Course you will learn python in a
+                                    simple and easy language</p>
+                                <a href="./sorry.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  my-3" style="width: fit-content;">
+                        <div class="card wordpress shadow-light my-2">
+                            <div class="card-body d-flex flex-column" style="height: 18rem;justify-content:center;">
+                                <h5 class="card-title">Wordpress</h5>
+                                <p class="card-text">
+                                    Welcome to this course In this Course you will learn Wordpress in a simple and easy
+                                    language
+                                </p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex flex-wrap" style="justify-content: space-around;">
+
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="contact">
+            <div class="container my-4">
+                <h1 class="my-4 text-center">
+                    Contact Us
+                </h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="heading">
+                            <span>Get in Touch</span>
+                            <h3>Contact Us</h3>
+                        </div>
+                        <div class="paragraph">
+                            <p>Have a question or want to say hello? We'd love to hear from you!</p>
+                        </div>
+                        <ul class="contact-info">
+                            <li><i class="fa fa-map-marker"></i> 123 Main St, Anytown, USA 12345</li>
+                            <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+                            <li><i class="fa fa-envelope"></i> <a href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="" class="contact-form">
+                            <div class="form-group my-3">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" class="form-control">
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary my-3">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="bi bi-geo-alt"></i> 123 Main St, Anytown, USA</p>
+                    <p><i class="bi bi-envelope"></i> info@example.com</p>
+                    <p><i class="bi bi-phone"></i> +1 (234) 567-8900</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="bi bi-facebook"></a>
+                        <a href="#" class="bi bi-twitter"></a>
+                        <a href="#" class="bi bi-instagram"></a>
+                        <a href="#" class="bi bi-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-4">
+            <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        var typed = new Typed(".typing-animation", {
+            strings: ['Web Development', "Java", "Python"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        })
+
+    </script>
